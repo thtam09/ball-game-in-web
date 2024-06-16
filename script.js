@@ -4,11 +4,11 @@ let sc = 0;
 let sch = [];
 
 function setup() {
-  createCanvas(370, 600).position(20, 20);
+  createCanvas(windowWidth, windowHeight).position(0, 0);
   x = width / 2;
   y = height / 2;
-  x1 = 150;
-  y1 = 350;
+  x1 = width / 2;
+  y1 = height / 2;
   background(51);
 }
 
